@@ -1,0 +1,17 @@
+class Trainer{
+String dept = "java";
+String institute = "Payilagam";
+private int salary = 10000;
+public int getName(){
+return salary;
+}
+void training(){
+System.out.println("java trining");
+}
+public static void main(String[] args){
+Trainer trainerKumar = new Trainer("CSE","payilagam");
+}
+Trainer(String val1,String val2){
+
+}
+}
