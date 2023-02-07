@@ -1,0 +1,10 @@
+class SQLTrainer extends Trainer{
+public static void main(String[]args){
+SQLTrainer ram = new SQLTrainer();
+}
+SQLTrainer(){
+super("dept","institute");
+System.out.println(super.dept);
+System.out.println(super.institute);
+}
+} 
